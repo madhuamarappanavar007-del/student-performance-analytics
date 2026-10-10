@@ -1,0 +1,6 @@
+Student_ID,Name,Department,Python,Mathematics,Statistics,Computer_Science,English,Attendance,Total,Average,Status,Grade,Attendance_Flag
+S016,Tara Bose,Computer Science,98,96,95,97,94,99,480.0,96.0,Pass,A+,75% or above
+S001,Aarav Sharma,Computer Science,95,92,90,96,88,96,461.0,92.2,Pass,A+,75% or above
+S004,Ananya Rao,Data Science,92,95,94,91,89,98,461.0,92.2,Pass,A+,75% or above
+S010,Saanvi Kulkarni,Computer Science,90,89,87,93,91,95,450.0,90.0,Pass,A+,75% or above
+S002,Diya Patel,Computer Science,88,85,82,90,86,92,431.0,86.2,Pass,A,75% or above

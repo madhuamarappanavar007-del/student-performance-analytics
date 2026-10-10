@@ -1,0 +1,81 @@
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+======================================================================
+Input: students.csv
+Dataset: fictional demonstration records; marks and attendance out of 100
+Records: 20 | Columns: 9
+Columns: Student_ID, Name, Department, Python, Mathematics, Statistics, Computer_Science, English, Attendance
+Missing cells: 0
+
+DATASET PREVIEW
+Student_ID         Name             Department  Python  Mathematics  Statistics  Computer_Science  English  Attendance
+      S001 Aarav Sharma       Computer Science      95           92          90                96       88          96
+      S002   Diya Patel       Computer Science      88           85          82                90       86          92
+      S003  Kabir Singh Information Technology      78           74          76                80       72          87
+      S004   Ananya Rao           Data Science      92           95          94                91       89          98
+      S005    Rohan Das Information Technology      65           60          62                68       64          80
+
+RULES
+Pass: every subject >= 40. Failed subject => grade F.
+Grades by average: A+ >=90, A >=80, B >=70, C >=60, D >=50, E >=40.
+Attendance below 75% is a warning only; it does not change pass/fail.
+
+STUDENT RESULTS
+Student_ID            Name  Total  Average Grade Status  Attendance Attendance_Flag
+      S001    Aarav Sharma 461.00    92.20    A+   Pass          96    75% or above
+      S002      Diya Patel 431.00    86.20     A   Pass          92    75% or above
+      S003     Kabir Singh 380.00    76.00     B   Pass          87    75% or above
+      S004      Ananya Rao 461.00    92.20    A+   Pass          98    75% or above
+      S005       Rohan Das 319.00    63.80     C   Pass          80    75% or above
+      S006      Isha Mehta 424.00    84.80     A   Pass          94    75% or above
+      S007     Vivaan Nair 279.00    55.80     D   Pass          76    75% or above
+      S008     Meera Joshi 382.00    76.40     B   Pass          89    75% or above
+      S009     Arjun Reddy 295.00    59.00     F   Fail          72       Below 75%
+      S010 Saanvi Kulkarni 450.00    90.00    A+   Pass          95    75% or above
+      S011    Aditya Verma 225.00    45.00     E   Pass          70       Below 75%
+      S012     Kavya Menon 404.00    80.80     A   Pass          91    75% or above
+      S013        Dev Shah 180.00    36.00     F   Fail          60       Below 75%
+      S014      Nisha Iyer 350.00    70.00     B   Pass          85    75% or above
+      S015     Neel Kapoor 274.00    54.80     F   Fail          74       Below 75%
+      S016       Tara Bose 480.00    96.00    A+   Pass          99    75% or above
+      S017      Yash Gupta 394.00    78.80     B   Pass          88    75% or above
+      S018      Priya Jain 200.00    40.00     E   Pass          75    75% or above
+      S019        Aman Ali 380.00    76.00     F   Fail          82    75% or above
+      S020      Riya Desai 330.00    66.00     C   Pass          79    75% or above
+
+CLASS SUMMARY
+Class average: 70.99/100
+Highest average: 96.00/100
+Lowest average: 36.00/100
+Passed: 16 | Failed: 4
+Pass percentage: 80.00%
+Highest-average students: Tara Bose
+Lowest-average students: Dev Shah
+Best-average subjects: Computer_Science
+Attendance warnings: 4
+
+GRADE DISTRIBUTION
+A+: 4
+A: 3
+B: 4
+C: 2
+D: 1
+E: 2
+F: 4
+
+SUBJECT-WISE ANALYSIS
+         Subject  Highest  Lowest  Average  Passed  Failed  Pass_Percentage
+          Python    98.00   30.00    70.00      18       2            90.00
+     Mathematics    96.00   30.00    67.85      17       3            85.00
+      Statistics    95.00   28.00    70.95      19       1            95.00
+Computer_Science    97.00   40.00    74.15      20       0           100.00
+         English    94.00   40.00    72.00      20       0           100.00
+
+TOP 5 STUDENTS (INCLUDING TIES)
+Student_ID            Name       Department  Average Grade Status
+      S016       Tara Bose Computer Science    96.00    A+   Pass
+      S001    Aarav Sharma Computer Science    92.20    A+   Pass
+      S004      Ananya Rao     Data Science    92.20    A+   Pass
+      S010 Saanvi Kulkarni Computer Science    90.00    A+   Pass
+      S002      Diya Patel Computer Science    86.20     A   Pass
+
+Reports saved to: /vercel/sandbox/data/student-performance-analytics/output
