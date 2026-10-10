@@ -1,0 +1,36 @@
+{
+  "student_count": 20,
+  "subject_count": 5,
+  "maximum_total_marks": 500,
+  "class_average": 70.99,
+  "highest_average": 96.0,
+  "lowest_average": 36.0,
+  "passed": 16,
+  "failed": 4,
+  "pass_percentage": 80.0,
+  "highest_average_students": [
+    {
+      "Student_ID": "S016",
+      "Name": "Tara Bose"
+    }
+  ],
+  "lowest_average_students": [
+    {
+      "Student_ID": "S013",
+      "Name": "Dev Shah"
+    }
+  ],
+  "best_average_subjects": [
+    "Computer_Science"
+  ],
+  "students_below_75_percent_attendance": 4,
+  "grade_counts": {
+    "A+": 4,
+    "A": 3,
+    "B": 4,
+    "C": 2,
+    "D": 1,
+    "E": 2,
+    "F": 4
+  }
+}
